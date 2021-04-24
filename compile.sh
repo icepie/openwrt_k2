@@ -8,7 +8,7 @@ tar -xvf openwrt-sdk-${version}-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64.tar
 cd openwrt-sdk-${version}-ramips-mt7620_gcc-7.5.0_musl.Linux-x86_64
 
 
-git clone https://github.com/CHN-beta/xmurp-ua.git package/xmurp-ua
+git clone https://github.com/CHN-beta/xmurp-ua.git -b dev package/xmurp-ua
 make defconfig
 make package/xmurp-ua/compile V=sc
 
